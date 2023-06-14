@@ -1,0 +1,87 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:linear-gradient(320deg, #eb92eb, #ffef78,#63f786) ;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+    font-family: 'Dosis',sans-serif;
+    
+}
+.container{
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 16px;
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+
+}
+input{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    font-size: 35px;
+    text-align: right;
+    width: 326px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* font-weight: 600; */
+
+}
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    
+}
+.button{
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    border-radius: 16px;
+    font-size: 24px;
+    height: 65px;
+    cursor: pointer;
+    /* font-weight: 600; */
+
+}
+.button:hover{
+    background-color: inherit;
+}
+.button:last-child{
+    background: #d7287fc5;
+    color: white;
+}
+.button:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+}
+.button:last-child:active{
+    background-color: #df3c8e36;
+
+}
+.button:active{
+    background-color: #ffef78;
+}
+.calc-button-double{
+    flex-basis: 47%;
+}
+.calc-button-tripple{
+    flex-basis: 47%;
+}
